@@ -16,8 +16,8 @@ import kotlinx.serialization.Serializable
 @Serializable
 enum class BlockingOperation {
   CALL,
-  SLEEP,
-  AWAKEABLE
+//  SLEEP,
+//  AWAKEABLE
 }
 
 interface CancelTest {
